@@ -1,0 +1,116 @@
+PS C:\Users\janic\Desktop\Python\DBN> python .\cnn_solution.py
+Using TensorFlow backend.
+[[ 0.  1.  0.]
+ [ 1.  0.  0.]
+ [ 0.  1.  0.]
+ ...,
+ [ 0.  0.  1.]
+ [ 1.  0.  0.]
+ [ 0.  1.  0.]]
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "BestSplits" device_type: "CPU"') for unknown op: BestSplits
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "CountExtremelyRandomStats" device_type: "CPU"') for unknown op: CountExtremelyRandomStats
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "FinishedNodes" device_type: "CPU"') for unknown op: FinishedNodes
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "GrowTree" device_type: "CPU"') for unknown op: GrowTree
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "ReinterpretStringToFloat" device_type: "CPU"') for unknown op: ReinterpretStringToFloat
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "SampleInputs" device_type: "CPU"') for unknown op: SampleInputs
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "ScatterAddNdim" device_type: "CPU"') for unknown op: ScatterAddNdim
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "TopNInsert" device_type: "CPU"') for unknown op: TopNInsert
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "TopNRemove" device_type: "CPU"') for unknown op: TopNRemove
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "TreePredictions" device_type: "CPU"') for unknown op: TreePredictions
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('
+op: "UpdateFertileSlots" device_type: "CPU"') for unknown op: UpdateFertileSlots
+Train on 7500 samples, validate on 1000 samples
+Epoch 1/15
+7500/7500 [==============================] - 18s - loss: 1.0982 - acc: 0.3485 - val_loss: 1.0964 - val_acc: 0.4370
+Epoch 2/15
+7500/7500 [==============================] - 13s - loss: 1.0917 - acc: 0.3759 - val_loss: 1.0918 - val_acc: 0.3590
+Epoch 3/15
+7500/7500 [==============================] - 9s - loss: 1.0812 - acc: 0.3964 - val_loss: 1.0788 - val_acc: 0.4140
+Epoch 4/15
+7500/7500 [==============================] - 9s - loss: 1.0525 - acc: 0.4368 - val_loss: 1.0468 - val_acc: 0.4730
+Epoch 5/15
+7500/7500 [==============================] - 10s - loss: 1.0333 - acc: 0.4576 - val_loss: 1.0450 - val_acc: 0.4400
+Epoch 6/15
+7500/7500 [==============================] - 9s - loss: 1.0055 - acc: 0.4859 - val_loss: 1.0039 - val_acc: 0.5380
+Epoch 7/15
+7500/7500 [==============================] - 10s - loss: 0.9751 - acc: 0.5143 - val_loss: 0.9690 - val_acc: 0.5680
+Epoch 8/15
+7500/7500 [==============================] - 9s - loss: 0.9374 - acc: 0.5364 - val_loss: 0.9380 - val_acc: 0.6110
+Epoch 9/15
+7500/7500 [==============================] - 9s - loss: 0.8986 - acc: 0.5729 - val_loss: 0.8901 - val_acc: 0.6120
+Epoch 10/15
+7500/7500 [==============================] - 10s - loss: 0.8630 - acc: 0.5927 - val_loss: 0.8174 - val_acc: 0.6500
+Epoch 11/15
+7500/7500 [==============================] - 10s - loss: 0.8305 - acc: 0.6095 - val_loss: 0.8247 - val_acc: 0.6320
+Epoch 12/15
+7500/7500 [==============================] - 10s - loss: 0.8159 - acc: 0.6185 - val_loss: 0.7642 - val_acc: 0.6610
+Epoch 13/15
+7500/7500 [==============================] - 9s - loss: 0.8145 - acc: 0.6197 - val_loss: 0.7849 - val_acc: 0.6590
+Epoch 14/15
+7500/7500 [==============================] - 9s - loss: 0.7564 - acc: 0.6528 - val_loss: 0.7417 - val_acc: 0.6680
+Epoch 15/15
+7500/7500 [==============================] - 9s - loss: 0.7285 - acc: 0.6649 - val_loss: 0.6878 - val_acc: 0.6970
+1472/1500 [============================>.] - ETA: 0sTest loss: 0.7347794383366902
+Test accuracy: 0.6453333331743876
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

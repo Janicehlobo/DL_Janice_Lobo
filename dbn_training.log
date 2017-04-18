@@ -1,0 +1,212 @@
+PS C:\Users\janic\Desktop\Python\DBN> python .\dbn_solution.py
+[START] Pre-training step:
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "BestSplits" device_type: "CPU"') for unknown op: BestSplits
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "CountExtremelyRandomStats" device_type: "CPU"') for unknown op: Cou
+ntExtremelyRandomStats
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "FinishedNodes" device_type: "CPU"') for unknown op: FinishedNodes
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "GrowTree" device_type: "CPU"') for unknown op: GrowTree
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ReinterpretStringToFloat" device_type: "CPU"') for unknown op: Rein
+terpretStringToFloat
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "SampleInputs" device_type: "CPU"') for unknown op: SampleInputs
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ScatterAddNdim" device_type: "CPU"') for unknown op: ScatterAddNdim
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNInsert" device_type: "CPU"') for unknown op: TopNInsert
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNRemove" device_type: "CPU"') for unknown op: TopNRemove
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TreePredictions" device_type: "CPU"') for unknown op: TreePredictio
+ns
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "UpdateFertileSlots" device_type: "CPU"') for unknown op: UpdateFert
+ileSlots
+>> Epoch 1 finished     RBM Reconstruction error 42.489740
+>> Epoch 2 finished     RBM Reconstruction error 38.967708
+>> Epoch 3 finished     RBM Reconstruction error 35.799572
+>> Epoch 4 finished     RBM Reconstruction error 34.386041
+>> Epoch 5 finished     RBM Reconstruction error 32.391576
+>> Epoch 6 finished     RBM Reconstruction error 32.233079
+>> Epoch 7 finished     RBM Reconstruction error 31.359616
+>> Epoch 8 finished     RBM Reconstruction error 31.321337
+>> Epoch 9 finished     RBM Reconstruction error 29.397529
+>> Epoch 10 finished    RBM Reconstruction error 30.451799
+>> Epoch 1 finished     RBM Reconstruction error 8.053022
+>> Epoch 2 finished     RBM Reconstruction error 7.036978
+>> Epoch 3 finished     RBM Reconstruction error 4.804801
+>> Epoch 4 finished     RBM Reconstruction error 4.361813
+>> Epoch 5 finished     RBM Reconstruction error 3.156906
+>> Epoch 6 finished     RBM Reconstruction error 2.743168
+>> Epoch 7 finished     RBM Reconstruction error 2.514360
+>> Epoch 8 finished     RBM Reconstruction error 2.658515
+>> Epoch 9 finished     RBM Reconstruction error 2.132530
+>> Epoch 10 finished    RBM Reconstruction error 2.075679
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 0 finished     ANN training loss 1.041232
+>> Epoch 1 finished     ANN training loss 1.097770
+>> Epoch 2 finished     ANN training loss 0.964100
+>> Epoch 3 finished     ANN training loss 0.961267
+>> Epoch 4 finished     ANN training loss 0.823050
+>> Epoch 5 finished     ANN training loss 0.811633
+>> Epoch 6 finished     ANN training loss 0.828330
+>> Epoch 7 finished     ANN training loss 0.791916
+>> Epoch 8 finished     ANN training loss 0.795610
+>> Epoch 9 finished     ANN training loss 0.781368
+>> Epoch 10 finished    ANN training loss 0.787730
+>> Epoch 11 finished    ANN training loss 0.824055
+>> Epoch 12 finished    ANN training loss 0.794412
+>> Epoch 13 finished    ANN training loss 0.772621
+>> Epoch 14 finished    ANN training loss 0.767712
+>> Epoch 15 finished    ANN training loss 0.769396
+>> Epoch 16 finished    ANN training loss 0.784440
+>> Epoch 17 finished    ANN training loss 0.761395
+>> Epoch 18 finished    ANN training loss 0.748366
+>> Epoch 19 finished    ANN training loss 0.749496
+>> Epoch 20 finished    ANN training loss 0.765846
+>> Epoch 21 finished    ANN training loss 0.754112
+>> Epoch 22 finished    ANN training loss 0.758175
+>> Epoch 23 finished    ANN training loss 0.759567
+>> Epoch 24 finished    ANN training loss 0.740507
+>> Epoch 25 finished    ANN training loss 0.739017
+>> Epoch 26 finished    ANN training loss 0.736187
+>> Epoch 27 finished    ANN training loss 0.744782
+>> Epoch 28 finished    ANN training loss 0.741570
+>> Epoch 29 finished    ANN training loss 0.742016
+>> Epoch 30 finished    ANN training loss 0.764130
+>> Epoch 31 finished    ANN training loss 0.727357
+>> Epoch 32 finished    ANN training loss 0.729507
+>> Epoch 33 finished    ANN training loss 0.733180
+>> Epoch 34 finished    ANN training loss 0.735271
+>> Epoch 35 finished    ANN training loss 0.734763
+>> Epoch 36 finished    ANN training loss 0.734263
+>> Epoch 37 finished    ANN training loss 0.750977
+>> Epoch 38 finished    ANN training loss 0.730233
+>> Epoch 39 finished    ANN training loss 0.726465
+>> Epoch 40 finished    ANN training loss 0.720125
+>> Epoch 41 finished    ANN training loss 0.728094
+>> Epoch 42 finished    ANN training loss 0.719728
+>> Epoch 43 finished    ANN training loss 0.717967
+>> Epoch 44 finished    ANN training loss 0.716447
+>> Epoch 45 finished    ANN training loss 0.712181
+>> Epoch 46 finished    ANN training loss 0.722626
+>> Epoch 47 finished    ANN training loss 0.713113
+>> Epoch 48 finished    ANN training loss 0.725935
+>> Epoch 49 finished    ANN training loss 0.714076
+>> Epoch 50 finished    ANN training loss 0.710693
+>> Epoch 51 finished    ANN training loss 0.710793
+>> Epoch 52 finished    ANN training loss 0.706447
+>> Epoch 53 finished    ANN training loss 0.708343
+>> Epoch 54 finished    ANN training loss 0.703207
+>> Epoch 55 finished    ANN training loss 0.708673
+>> Epoch 56 finished    ANN training loss 0.701109
+>> Epoch 57 finished    ANN training loss 0.701053
+>> Epoch 58 finished    ANN training loss 0.699605
+>> Epoch 59 finished    ANN training loss 0.709952
+>> Epoch 60 finished    ANN training loss 0.706290
+>> Epoch 61 finished    ANN training loss 0.697221
+>> Epoch 62 finished    ANN training loss 0.694643
+>> Epoch 63 finished    ANN training loss 0.694136
+>> Epoch 64 finished    ANN training loss 0.693807
+>> Epoch 65 finished    ANN training loss 0.693976
+>> Epoch 66 finished    ANN training loss 0.697098
+>> Epoch 67 finished    ANN training loss 0.693813
+>> Epoch 68 finished    ANN training loss 0.688759
+>> Epoch 69 finished    ANN training loss 0.688539
+>> Epoch 70 finished    ANN training loss 0.687694
+>> Epoch 71 finished    ANN training loss 0.686632
+>> Epoch 72 finished    ANN training loss 0.691968
+>> Epoch 73 finished    ANN training loss 0.686347
+>> Epoch 74 finished    ANN training loss 0.683590
+>> Epoch 75 finished    ANN training loss 0.685710
+>> Epoch 76 finished    ANN training loss 0.682180
+>> Epoch 77 finished    ANN training loss 0.684755
+>> Epoch 78 finished    ANN training loss 0.679989
+>> Epoch 79 finished    ANN training loss 0.678749
+>> Epoch 80 finished    ANN training loss 0.679480
+>> Epoch 81 finished    ANN training loss 0.679330
+>> Epoch 82 finished    ANN training loss 0.682361
+>> Epoch 83 finished    ANN training loss 0.676686
+>> Epoch 84 finished    ANN training loss 0.680840
+>> Epoch 85 finished    ANN training loss 0.679637
+>> Epoch 86 finished    ANN training loss 0.673909
+>> Epoch 87 finished    ANN training loss 0.674363
+>> Epoch 88 finished    ANN training loss 0.671980
+>> Epoch 89 finished    ANN training loss 0.677477
+>> Epoch 90 finished    ANN training loss 0.671492
+>> Epoch 91 finished    ANN training loss 0.671743
+>> Epoch 92 finished    ANN training loss 0.668242
+>> Epoch 93 finished    ANN training loss 0.668049
+>> Epoch 94 finished    ANN training loss 0.667665
+>> Epoch 95 finished    ANN training loss 0.668466
+>> Epoch 96 finished    ANN training loss 0.675644
+>> Epoch 97 finished    ANN training loss 0.672137
+>> Epoch 98 finished    ANN training loss 0.666264
+>> Epoch 99 finished    ANN training loss 0.662973
+[END] Fine tuning step
+Accuracy: 0.6705
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
